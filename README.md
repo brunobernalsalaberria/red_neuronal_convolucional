@@ -18,7 +18,7 @@ Se entrena un modelo CNN, se evalúa su rendimiento y después se mejora usando 
 
 ## Dataset
 
-Se usa el dataset de **cats vs dogs**.
+Se usa el dataset de cats vs dogs.
 
 Las imágenes están separadas en carpetas:
 
@@ -31,8 +31,8 @@ Cada carpeta contiene:
 
 Las etiquetas son:
 
-- 0 → gato
-- 1 → perro
+- 0 → gato  
+- 1 → perro  
 
 ---
 
@@ -41,6 +41,3 @@ Las etiquetas son:
 Se usa `ImageDataGenerator` para cargar las imágenes.
 
 Se normalizan los valores dividiendo por 255.
-
-```python
-ImageDataGenerator(rescale=1./255)
